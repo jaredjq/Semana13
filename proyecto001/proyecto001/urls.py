@@ -28,5 +28,7 @@ urlpatterns = [
     path('rango2/',views.rango2,name="rango2"),
     path('rango2/<int:a>',views.rango2,name="rango2"),
     path('rango2/<int:a>/<int:b>',views.rango2,name="rango2"),
+    path('crear-articulo',views.crear_articulo,name="crear_articulo"),
+    
 ]
 
